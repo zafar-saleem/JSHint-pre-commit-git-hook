@@ -4,7 +4,7 @@
 
    sudo npm install -g jshint
 
-2. Add the file to your repo's .git/hooks dir 
+2. Add the file(pre-commit file) to your repo's .git/hooks dir 
 
 3. Make it executable 
    
