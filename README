@@ -11,3 +11,17 @@
    chmod +x .git/hooks/pre-commit
 
 4. Test by committing a *.js file with problems
+
+For CSSLint
+
+1. Install csslint
+
+   sudo npm install -g csslint
+
+2. Add the file(pre-commit file in jshint+csslint folder) to your repo's .git/hooks dir 
+
+3. Make it executable 
+   
+   chmod +x .git/hooks/pre-commit
+
+4. Test by committing a *.css file with problems
